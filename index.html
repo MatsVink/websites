@@ -37,7 +37,7 @@
         </div>
 
 
-        <a href="Muziek.html" target="_blank"><h2> Muziek van Mats</h2></a>
+        <a href="Muziek.html" target="_blank" class="Muziek"><h2>Muziek van Mats</h2></a>
         <hr>
 
         <table border="2" style="background-color: black;">
@@ -54,21 +54,14 @@
         </table>
         <hr>
 
-        <form action="index.php" method="POST">
-            <label for="username">username:</label>
-            <input type="text" id="username">
-            <br>
-            <label>email:</label>
-            <input type="email" required>
-            <br>
-            <input type="reset">
-            <input type="submit">
-            
-        </form>
-        <hr>
-
-        <p>Website medemogelijk gemaakt door:</p>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/HGTJBPNC-Gw" title="HTML &amp; CSS Full Course for free 🌎" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-container">
+            <p>Website medemogelijk gemaakt door:</p>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/HGTJBPNC-Gw" title="HTML &amp; CSS Full Course for free 🌎" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- Plaats de knop onder de video-container -->
+        <div class="button-container">
+            <a target="_blank" href="formulier.html" class="button-link">Huur mij in!</a>
+        </div>        
 
         <div class="footer">
             author: Mats Vink<br>
