@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer{
+    color: white;
+    background-color: #3a5243;
+    padding: 30px;
+    overflow: auto;
+}
+.header{
+    position: relative;
+    text-align: center;
+    height: 12vh;
+    background-color: #3a5243;
+    overflow: auto;    
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    overflow: auto;
+
+}
+
+.foto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10vh;
+    height: auto; 
+    padding: 10px;
+    overflow: auto;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    max-width: 95vh;
+    margin: 2.5vh auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.mainfoto{
+    width: 30vh;
+    height: auto;
+    border-right: 10px solid #ffffff;
+}
+
+.main-tekst{
+    padding: 50px;
+}
+

@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mats zijn website</title>
         <link rel="icon" type="image/png" href="fotos/Mats Vink.png">
-
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Mats Vink</h1>
-        <h3>01-05-2005</h3>
-        <a href="https://github.com/MatsVink"
-        target="_blank"
-        title="Sexy man">
-        <img src="fotos/Mats.png"
-        height="300"
-        alt="Dit is een foto van Mats">
-        </a>
-        <br>
-        <hr>
+        <div class="header">
+            <a href="index.html">
+            <img class="foto" src="fotos/Mats Vink.png" alt="Dit is een foto van Mats">
+            </a>
+            <h1 class="title">Mats Vink</h1>
+        </div>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, unde! Fugit laudantium natus sit sequi dolorem atque! Delectus unde assumenda, ipsa amet cum nihil labore sunt fuga incidunt sed iusto.</p>
-        <br>
-        <a href="https://www.google.com/"
-        target="_blank"
-        title="Gaat naar google">
-            Google
-        </a>
-        <hr>
+        <div class="main">
+            <a href="https://github.com/MatsVink"
+            target="_blank"
+            title="Sexy man">
+            <img class="mainfoto" src="fotos/Mats.png"
+            alt="Dit is een foto van Mats">
+            </a>
+    
+            <div class="main-text">
+                <h1>Over Mij</h1>
+                <p>
+                    Ik ben Mats Vink, geboren op 1 mei 2005 in Utrecht. Na mijn VWO met het profiel Natuur & Techniek, waarin ik ook Informatica had, begon ik aan een studie Werktuigbouwkunde. Na een half jaar merkte ik dat dit niet helemaal bij mij paste, dus besloot ik te stoppen. Daarna heb ik een half jaar in de sales gewerkt, wat me veel heeft opgeleverd. Tijdens die periode behaalde ik mijn Sales Agent-certificaat, wat een waardevolle ervaring was.
+                </p>
+                <p>
+                    In mijn vrije tijd sport ik graag. Ik houd van padellen, squashen, voetbal en verschillende martial arts. Daarnaast ga ik vaak naar de sportschool om actief te blijven en mijn doelen te bereiken. Ik vind het ook belangrijk om tijd door te brengen met vrienden en geniet van gezelligheid. Als creatieve uitlaatklep maak ik graag muziek, wat me helpt om mezelf op een andere manier uit te drukken.
+                </p>
+            </div>
+            <hr>
+        </div>
 
-        <h2> Muziek van Mats</h2>
-        <p>Relax:</p>
-        <audio controls>
-            <source src="sounds/relax.mp3">
-        </audio>
-        <p>Big flex:</p>
-        <audio controls>
-            <source src="sounds/big flex.mp3">
-        </audio>
-        <p>Freedom:</p>
-        <audio controls loop>
-            <source src="sounds/freedom.mp3">
-        </audio>
+
+        <a href="Muziek.html" target="_blank"><h2> Muziek van Mats</h2></a>
         <hr>
 
         <table border="2" style="background-color: black;">
@@ -71,13 +68,12 @@
         <hr>
 
         <p>Website medemogelijk gemaakt door:</p>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/HGTJBPNC-Gw" 
-        title="HTML &amp; CSS Full Course for free 🌎" 
-        frameborder="0" allow="accelerometer; autoplay; 
-        clipboard-write; encrypted-media; gyroscope; 
-        picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen></iframe>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/HGTJBPNC-Gw" title="HTML &amp; CSS Full Course for free 🌎" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+        <div class="footer">
+            author: Mats Vink<br>
+            &copy; copyright reserved<br>
+            <small><a href="mailto:matsvink05@gmail.com">matsvink05@gmail.com</a></small>
+        </div>
     </body>
 </html>
