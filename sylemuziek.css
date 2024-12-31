@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    color: white;
+    background-color: #3a5243;
+    padding: 30px;
+    overflow: auto;
+    text-align: center;
+}
+
+.music-section {
+    width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+.music-section h2 {
+    color: #3a5243;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.track {
+    margin-bottom: 15px;
+}
+
+audio {
+    width: 100%;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+}
+.header{
+    position: relative;
+    text-align: center;
+    height: 12vh;
+    background-color: #3a5243;
+    overflow: auto;    
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    overflow: auto;
+}
+
+.foto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10vh;
+    height: auto; 
+    padding: 10px;
+    overflow: auto;
+}
