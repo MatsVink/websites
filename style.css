@@ -10,7 +10,7 @@ body {
     background-color: #3a5243;
     padding: 30px;
     overflow: auto;
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 .header{
